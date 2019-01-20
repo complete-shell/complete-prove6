@@ -1,0 +1,28 @@
+CompleteShell v0.2
+
+N prove6 v0.0.1 ..'prove for Perl6'
+
+O   -v  --verbose        .."Print all test lines."
+O   -l  --lib            .."Add 'lib' to the path for your tests (-Ilib)."
+O       --shuffle        .."Run the tests in random order."
+O       --ignore-exit    .."Ignore exit status from test scripts."
+O       --reverse        .."Run the tests in reverse order."
+O   -q  --quiet          .."Suppress some test output while running tests."
+O   -Q  --QUIET          .."Only print summary results."
+O       --timer          .."Print elapsed time after each test."
+O       --trap           .."Trap Ctrl-C and print summary on interrupt."
+O       --help           .."Display this help"
+O       --version        .."Display the version"
+
+# Options that take arguments:
+#
+#     -I,  --incdir          Library paths to include.
+#     -e,  --exec            Interpreter to run the tests ('' for compiled
+#                            tests.)
+#          --ext             Set the extensions for tests (default <t t6>)
+#          --harness         Define test harness to use.  See TAP::Harness.
+#          --reporter        Result reporter to use. See REPORTERS.
+#     -j,  --jobs            Run N test jobs in parallel (try 9.)
+#          --err=stderr      Direct the test's $*ERR to the harness' $*ERR.
+#          --err=merge       Merge test scripts' $*ERR with their $*OUT.
+#          --err=ignore      Ignore test script' $*ERR.
