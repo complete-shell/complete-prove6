@@ -1,6 +1,7 @@
 CompleteShell v0.2
 
 N prove6 v0.0.1 ..'prove for Perl6'
+M tags perl perl6 testing
 
 O   -v  --verbose        .."Print all test lines."
 O   -l  --lib            .."Add 'lib' to the path for your tests (-Ilib)."
